@@ -1,0 +1,18 @@
+
+
+5.2 Stability: The structure should be stable, meaning that no block should be left hanging in the air without any support underneath it.
+--- 
+
+5.3 Goal: The final structure should resemble the character A. The specific arrangement of blocks to form the shape of A is the goal of this task.
+---
+
+6. Objective:
+Using the `drop_block()` function, construct a stable structure that resembles the character A while satisfying all the hard constraints mentioned above.
+
+7. Approach:
+1. Begin by dropping the bottom horizontal block (b31) at the center of the map (slot 10) to form the base of the A shape.
+2. Next, drop the vertical block (b13) on top of the base block slightly to the left (slots 9, 10, 11) to form the left leg of the A shape.
+3. Then, drop another vertical block (b13) on top of the base block slightly to the right (slots 11, 12, 13) to form the right leg of the A shape.
+4. Lastly, drop the top horizontal block (b31) on top of the two vertical blocks in the center (slots 9, 10, 11) to complete the structure resembling the character A.
+
+By following this approach and carefully selecting the drop positions and order, you can achieve a stable structure that meets the goal and satisfies all the hard constraints.
