@@ -1,10 +1,7 @@
-
-
-To implement the drop_block() function to generate a stable structure resembling the character A, we can follow these steps:
-
-1. Drop a b13 block (vertical block) centered at slot 6.
-2. Drop a b13 block centered at slot 14.
-3. Drop a b31 block (horizontal block) centered at slot 10.
-4. Drop a b11 block (square block) centered at slot 10.
-
-By following these steps, we can create a stable structure that looks like the character A and meets all the hard constraints. The drop_block() function takes care of determining the dropping position and order to ensure a stable structure while avoiding boundary intrusion.
+```
+drop_block('b31', 9)
+drop_block('b31', 8)
+drop_block('b11', 10)
+drop_block('b11', 7)
+drop_block('b13', 9)
+```

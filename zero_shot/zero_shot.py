@@ -42,4 +42,4 @@ if __name__ == "__main__":
     # load_dotenv()
     # client = OpenAI()
 
-    run_evaluation("zero_shot", ZeroShotPrompting, num_trials=10, characters=["A"])
+    run_evaluation("zero_shot", ZeroShotPrompting, num_trials=10, characters=["I"])

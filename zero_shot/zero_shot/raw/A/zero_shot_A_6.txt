@@ -1,17 +1,7 @@
-
-
-To implement the drop_block() function to generate a stable structure that looks like the character A and meets all the hard constraints, we need to carefully plan the dropping positions and orders of the block types b11, b31, and b13. The structure of the character A can be broken down into the following pattern:
-- b31 at the top center
-- b13 below the b31, slightly shifted to the left
-- b13 below the b31, slightly shifted to the right
-- b11 at the bottom center
-
-Here's a general algorithm to achieve this:
-
-1. Drop b31 block at the top center (slot 10).
-2. Drop b13 blocks below the b31 block: one shifted to the left (slot 7) and one shifted to the right (slot 13).
-3. Drop b11 block at the bottom center (slot 10).
-
-By following this algorithm and making necessary adjustments based on the current state of the structure, you can generate a stable A-shaped structure that meets the goal and all hard constraints. You may need to iterate and simulate the dropping process multiple times to ensure stability and adherence to constraints.
-
-Feel free to adjust the dropping positions and order as needed to optimize the structure while meeting the constraints. The key is to strategically place the blocks to create the desired shape without violating any constraints.
+```
+drop_block('b31', 9)
+drop_block('b31', 8)
+drop_block('b31', 10)
+drop_block('b11', 9)
+drop_block('b13', 9)
+```
