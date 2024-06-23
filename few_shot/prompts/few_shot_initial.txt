@@ -44,23 +44,28 @@ The relevant constraints are given in the following.
 6. Examples
 
 6.1. Input: "G"
-
-Reasoning steps: The character G is formed with three seperate strokes, a curved strove on the left, a vertical stroke on the right, and a horizontal stroke.
-First of all, drop b31 at x_position 8, b31 at x_position 11, b11 at x_position 6, b31 at x_position 7 to form a base for the curved stoke.
-Next, drop b31 at x_position 12, b31 at x_position 11, b11 at x_position 13, b13 at x_position 14 to form the horizontal stroke and the vertical stoke.
-Finally, switch back to form the curved stoke, drop b13 at x_position 8, three b31 at x_position 6, b31 at x_position 7, b11 at x_position 6, b31 at x_position 8, b11 at x_position 7, b31 at x_position 9 to form the curved stoke from bottom to top.
-
-
 Output:
 ```
-
+drop_block("b31",8)
+drop_block("b31",11)
+drop_block("b11",6)
+drop_block("b31",7)
+drop_block("b31",12)
+drop_block("b31",11)
+drop_block("b11",13)
+drop_block("b13",14)
+drop_block("b13",8)
+drop_block("b31",6)
+drop_block("b31",6)
+drop_block("b31",6)
+drop_block("b31",7)
+drop_block("b11",6)
+drop_block("b31",8)
+drop_block("b11",7)
+drop_block("b31",9)
 ```
 
 6.2. Input: "Q"
-
-Reasoning steps:
-
-
 Output:
 ```
 drop_block("b31",8)
@@ -99,10 +104,6 @@ drop_block("b11",11)
 ```
 
 6.3. Input: "S"
-
-Reasoning steps:
-
-
 Output:
 ```
 drop_block('b31', 10)

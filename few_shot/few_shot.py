@@ -24,4 +24,4 @@ class FewShotPrompting(TrialLoop):
 
 if __name__ == "__main__":
     load_dotenv()
-    run_evaluation("few_shot", FewShotPrompting, num_trials=10, characters=["B"])
+    run_evaluation("few_shot", FewShotPrompting, num_trials=10, characters=["O"])
