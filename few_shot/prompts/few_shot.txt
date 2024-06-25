@@ -45,10 +45,20 @@ The relevant constraints are given in the following.
 
 6.1. Input: "G"
 
-Reasoning steps: The character G is formed with three seperate strokes, a curved strove on the left, a vertical stroke on the right, and a horizontal stroke.
-First of all, drop b31 at x_position 8, b31 at x_position 11, b11 at x_position 6, b31 at x_position 7 to form a base for the curved stoke.
-Next, drop b31 at x_position 12, b31 at x_position 11, b11 at x_position 13, b13 at x_position 14 to form the horizontal stroke and the vertical stoke.
-Finally, switch back to form the curved stoke, drop b13 at x_position 8, three b31 at x_position 6, b31 at x_position 7, b11 at x_position 6, b31 at x_position 8, b11 at x_position 7, b31 at x_position 9 to form the curved stoke from bottom to top.
+Reasoning steps:
+The character G is formed with three seperate strokes, a curved stroke which form a C shape, a vertical stroke and a horizontal stroke that form a Rotate 180 degrees clockwise L shape.
+
+First of all, form all the layers of the curved stroke which is same as C shape
+Drop b31 at x_position 8, b31 at x_position 11, b11 at x_position 6 to form the layer 0 of the curved stroke
+Drop b31 at x_position 7, b31 at x_position 12 to from the layer 1 of the curved stroke
+Drop b31 at x_position 6, b31 at x_position 6, b31 at x_position 6, b13 at x_position 8 to form the layer 2, layer 3, layer 4 of the curved stroke
+Drop b31 at x_position 7 to form the layer 5 of the curved stroke
+Drop b11 at x_position 6, b31 at x_position 8 to form the layer 6 of the curved stroke
+Drop b11 at x_position 7, b31 at x_position 9  to form the layer 7 of the curved stroke
+
+Then, form the vertical stroke and a horizontal stroke, which is the same as a Rotate 180 degrees clockwise L shape
+Drop b13 at x_position 14 to form the vertical stroke
+Drop b31 at x_position 11, b11 at x_position 13 to form the horizontal on layer 2
 
 
 Output:
