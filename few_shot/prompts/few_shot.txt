@@ -45,7 +45,7 @@ The relevant constraints are given in the following.
 
 6.1. Input: "G"
 
-Reasoning steps:
+Correct Reasoning steps:
 The character G is formed with three seperate strokes, a curved stroke which form a C shape, a vertical stroke and a horizontal stroke that form a Rotate 180 degrees clockwise L shape.
 
 First of all, form all the layers of the curved stroke which is same as C shape
@@ -59,6 +59,10 @@ Drop b11 at x_position 7, b31 at x_position 9  to form the layer 7 of the curved
 Then, form the vertical stroke and a horizontal stroke, which is the same as a Rotate 180 degrees clockwise L shape
 Drop b13 at x_position 14 to form the vertical stroke
 Drop b31 at x_position 11, b11 at x_position 13 to form the horizontal on layer 2
+
+Wrong Reasoning Steps:
+
+
 
 
 Output:
