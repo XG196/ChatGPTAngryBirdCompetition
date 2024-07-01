@@ -1,10 +1,21 @@
-# Steps to Complete the Competition
+# Team Name
 
-### Read the Competation Paper, use the example Prompt Engineering Examples
-### Config the Executing Environment for the Competation (Python=3.11)
+## Team Members
 
-### Try provide ChatGpt with some Chain of Thoughts to create a example character G 06/23/2024
-### 
+List the names of the members of this team.
 
-### sk-proj-gJx0eTFElmZKY2QKlwMFT3BlbkFJW3IKm0CXktfksz7i2qPY
-### sk-proj-hel0ulCXrOfGXCDNIvStT3BlbkFJcwBfN3SySBC5ZuAJsZ2S
+## Overview
+
+Briefly describe your approach.
+
+## Instructions
+
+Describe what are the necessary environments or specific steps to run your program after unzipping the file.
+
+## How to Run
+
+Include detailed instructions on how to run your program. This may include commands, configurations, or specific steps.
+
+## Dependencies
+
+List all dependencies required to run your program. This may include libraries, frameworks, or specific software versions.

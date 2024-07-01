@@ -46,7 +46,7 @@ The relevant constraints are given in the following.
 6.1. Input: "G"
 
 Correct Reasoning steps:
-The character G is formed with three seperate strokes, a curved stroke which form a C shape, a vertical stroke and a horizontal stroke that form a Rotate 180 degrees clockwise L shape.
+The character G is formed with three seperate strokes, a curved stroke which form a C shape, a vertical stroke and a horizontal stroke, which is the same as a Rotate 180 degrees clockwise L shape
 
 First of all, form all the layers of the curved stroke which is same as C shape
 Drop b31 at x_position 8, b31 at x_position 11, b11 at x_position 6 to form the layer 0 of the curved stroke
@@ -58,58 +58,37 @@ Drop b11 at x_position 7, b31 at x_position 9  to form the layer 7 of the curved
 
 Then, form the vertical stroke and a horizontal stroke, which is the same as a Rotate 180 degrees clockwise L shape
 Drop b13 at x_position 14 to form the vertical stroke
-Drop b31 at x_position 11, b11 at x_position 13 to form the horizontal on layer 2
-
-Wrong Reasoning Steps:
-
-
+Drop b31 at x_position 11, b11 at x_position 13 to form the horizontal stroke on layer 2
 
 
 Output:
 ```
-
+drop_block("b31",8)
+drop_block("b31",11)
+drop_block("b11",6)
+drop_block("b31",7)
+drop_block("b31",12)
+drop_block("b31",11)
+drop_block("b11",13)
+drop_block("b13",14)
+drop_block("b13",8)
+drop_block("b31",6)
+drop_block("b31",6)
+drop_block("b31",6)
+drop_block("b31",7)
+drop_block("b11",6)
+drop_block("b31",8)
+drop_block("b11",7)
+drop_block("b31",9)
 ```
 
 6.2. Input: "Q"
 
 Reasoning steps:
 
-
 Output:
 ```
-drop_block("b31",8)
-drop_block("b11",6)
-drop_block("b31",11)
-drop_block("b31",14)
-drop_block("b11",10)
-drop_block("b31",12)
-drop_block("b31",6)
-drop_block("b13",7)
-drop_block("b11",7)
-drop_block("b11",7)
-drop_block("b13",11)
-drop_block("b11",11)
-drop_block("b11",11)
-drop_block("b31",13)
-drop_block("b31",5)
-drop_block("b31",13)
-drop_block("b31",5)
-drop_block("b31",13)
-drop_block("b31",5)
-drop_block("b31",13)
-drop_block("b31",5)
-drop_block("b31",13)
-drop_block("b31",5)
-drop_block("b31",12)
-drop_block("b31",6)
-drop_block("b11",4)
-drop_block("b31",11)
-drop_block("b11",5)
-drop_block("b31",7)
-drop_block("b11",6)
-drop_block("b31",8)
-drop_block("b11",10)
-drop_block("b11",11)
+
 ```
 
 6.3. Input: "S"
@@ -119,11 +98,7 @@ Reasoning steps:
 
 Output:
 ```
-drop_block('b31', 10)
-drop_block('b31', 11)
-drop_block('b31', 10)
-drop_block('b31', 9)
-drop_block('b31', 10)
+
 ```
 ---
 Input: "<OBJECT>"
