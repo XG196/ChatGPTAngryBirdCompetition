@@ -77,10 +77,10 @@ drop_block("b13",8)
 drop_block("b31",7)
 drop_block("b11",6)
 drop_block("b31",8)
-drop_block("b11",7)
 drop_block("b13",14)
 drop_block("b31",11)
 drop_block("b11",13)
+drop_block("b11",7)
 drop_block("b31",9)
 ```
 
@@ -142,7 +142,7 @@ drop_block("b11",11)
 Reasoning steps:
 
 The character B is form of a character D at the bottom and another character D on the top.
-First of all, for the first character D, where is the base of the character B
+First of all, form the first character D, where is the base of the character B
 Drop b31 at x_position 8, b11 at x_position 10 to form the layer 0 of the character B.
 Drop b13 at x_position 7, b31 at x_position 9, b11 at x_position 8, b11 at x_position 8, b11 at x_position 10, b11 at x_position 10 to form layer 1, layer 2 and layer 3 of character B. 
 Drop b31 at x_position 8 to form layer 4 of the character B.
@@ -170,17 +170,6 @@ drop_block("b11",8)
 drop_block("b11",10)
 drop_block("b11",10)
 drop_block("b31",8)
-```
-
-6.4. Input: "W"
-
-Reasoning steps:
-
-
-
-Output:
-```
-
 ```
 
 ---
